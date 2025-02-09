@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #434455;
+    line-height: 1.5;
+}
+footer{
+    color: #F4F4FD;
+    background-color: #2E2F42;
+}
+header{
+    color: #2E2F42;
+    background-color: #E7E9FC;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* #region button*/
+button{
+    cursor: pointer;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+}
+button:hover,
+button:focus{
+    background: #404BBF;
+}
+/* #endregion button*/
+.title{
+    background: #2E2F42;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.iris{
+    color: #4D5AE5;
+}
+#studio,#portfolio,#contacts,.email,.tel{
+    color: #2E2F42;
+}
+#studio:hover,#studio:focus,#portfolio:hover,#portfolio:focus,#contacts:hover,#contacts:focus,.email:hover,.email:focus,.tel:hover,.tel:focus{
+    color: #404BBF;
+}
