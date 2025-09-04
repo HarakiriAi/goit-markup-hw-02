@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400, 500, 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+h1, h2, h3 {
+    color: #2E2F42;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 1.111;
+    color: #FFFFFF;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3{
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+button:focus, button:hover{
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.team{
+    background-color: #E7E9FC;
+}
+
+.hero{
+    background-color: #2E2F42;
+    
+}
+
+header{
+    height: 72px;
+    
+}
