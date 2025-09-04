@@ -51,7 +51,7 @@ button:focus, button:hover{
     background-color: #F4F4FD;
 }
 
-.title>.team {
+.team > .title {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -107,11 +107,17 @@ button:focus, button:hover{
     color: #f4f4fd;
 }
 
-.nav-list-item > .nav-list-item-url{
+.nav-list-item-url{
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
 
+}
+
+.nav-list-item-url:hover,
+.nav-list-item-url:active,
+.nav-list-item-url:focus{
+    color: #404bbf;
 }
 
 .address{
@@ -171,13 +177,9 @@ a{
 
 }
 
-.footer > .studio{
-    color: #FFFFFF;
-}
-
-.footer > p{
+.footer-paragraph{
     color: #F4F4FD;
-    
+
 }
 
 .portfolio > .title{
