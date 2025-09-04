@@ -81,24 +81,28 @@ header{
     letter-spacing: 0.03em;
 }
 
-.nav-list{
+.nav-list-item{
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
 
 }
 
-.nav-list:hover,
-.nav-list:focus{
+.nav-list-item:hover,
+.nav-list-item:focus{
     color: #404bbf;
 }
 
-.Adress{
+.address{
     font-style: normal;
     color: #434455;
 }
 
-.Adress:hover,
-.Adress:focus{
+.address:hover,
+.address:focus{
     color: #404bbf;
+}
+
+a{
+    text-decoration: none;
 }
