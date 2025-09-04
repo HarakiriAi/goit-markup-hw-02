@@ -62,7 +62,7 @@ header{
 }
 
 .logo{
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -89,17 +89,17 @@ header{
 }
 
 .nav-list-item:hover > .nav-list-item-url,
-.nav-list-item:focus > .nav-list-item-url{
+.nav-list-item:active > .nav-list-item-url{
     color: #404bbf;
 }
 
-.address{
+.a-list > a{
     font-style: normal;
     color: #434455;
 }
 
-.address:hover,
-.address:focus{
+.a-list:hover > a,
+.a-list:focus > a{
     color: #404bbf;
 }
 
