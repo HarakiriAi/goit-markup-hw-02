@@ -48,7 +48,31 @@ button:focus, button:hover{
 }
 
 .team{
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
+}
+
+.title>.team {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-list-item > h3{
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.team-list-item > p{
+    color: #434455;
 }
 
 .hero{
@@ -71,7 +95,7 @@ header{
     color: #4d5ae5
 }
 
-.Studio{
+.studio{
     color: #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -93,16 +117,51 @@ header{
     color: #404bbf;
 }
 
-.a-list > a{
+.address{
+    font-style: normal;
+}
+
+.a-list-item-url{
     font-style: normal;
     color: #434455;
 }
 
-.a-list:hover > a,
-.a-list:focus > a{
+.a-list-item-url:hover,
+.a-list-item-url:active{
     color: #404bbf;
 }
 
 a{
     text-decoration: none;
+}
+
+.hero-h1{
+    line-height: 1.07;
+    text-align: center;
+}
+
+.hero-button{
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
+.title{
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.approach-paragraph{
+    color: #434455
+}
+
+.footer{
+    background-color: #2e2f42;
+
 }
