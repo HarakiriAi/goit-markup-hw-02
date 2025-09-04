@@ -80,7 +80,6 @@ button:focus, button:hover{
 
 .hero{
     background-color: #2E2F42;
-    
 }
 
 .logo{
@@ -182,6 +181,10 @@ a{
 
 }
 
+.footer > .studio{
+    color: #F4F4FD;
+}
+
 .portfolio > .title{
     line-height: 1.11;
     text-align: center;
@@ -201,3 +204,4 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
