@@ -65,24 +65,22 @@ button:focus, button:hover{
     text-align: center;
 }
 
-.team-list-item > h3{
+.team-list-heading{
     font-weight: 500;
     line-height: 1.2;
 
+
 }
 
-.team-list-item > p{
+.team-list-paragraph{
     color: #434455;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .hero{
     background-color: #2E2F42;
     
-}
-
-header{
-    height: 72px;
-
 }
 
 .logo{
@@ -116,11 +114,6 @@ header{
 
 }
 
-.nav-list-item:hover > .nav-list-item-url,
-.nav-list-item:active > .nav-list-item-url{
-    color: #404bbf;
-}
-
 .address{
     font-style: normal;
 }
@@ -131,7 +124,8 @@ header{
 }
 
 .a-list-item-url:hover,
-.a-list-item-url:active{
+.a-list-item-url:active,
+.a-list-item-url:focus{
     color: #404bbf;
 }
 
@@ -139,7 +133,7 @@ a{
     text-decoration: none;
 }
 
-.hero-h1{
+.hero-title{
     line-height: 1.07;
     text-align: center;
 }
@@ -147,6 +141,7 @@ a{
 .hero-button{
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-weight: 500;
 
 }
 
@@ -161,6 +156,12 @@ a{
 
 }
 
+.approach-heading{
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
 .approach-paragraph{
     color: #434455
 }
@@ -168,4 +169,33 @@ a{
 .footer{
     background-color: #2e2f42;
 
+}
+
+.footer > .studio{
+    color: #FFFFFF;
+}
+
+.footer > p{
+    color: #F4F4FD;
+    
+}
+
+.portfolio > .title{
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-heading{
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+
+.portfolio-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
