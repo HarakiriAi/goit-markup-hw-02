@@ -105,6 +105,10 @@ header{
     letter-spacing: 0.03em;
 }
 
+.studio > .footer{
+    color: #f4f4fd;
+}
+
 .nav-list-item > .nav-list-item-url{
     color: #2e2f42;
     font-weight: 500;
